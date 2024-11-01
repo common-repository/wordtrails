@@ -1,0 +1,55 @@
+#tooltip {
+    position: absolute;
+    z-index: 3000;
+    border: 1px solid #111;
+    background-color: #eee;
+    padding: 5px;
+    text-align: left;
+}
+#tooltip.pretty {
+    width: 211px;
+    border: none;
+    background: none;
+}
+#tooltip.pretty .wrap {
+    padding: 0px 18px 0px 18px;
+    width: 181px;
+}
+#tooltip h3, #tooltip div {
+    margin: 0;
+    position: relative;
+}
+
+#tooltip.pretty .tip-top {
+    height: 45px;
+}
+#tooltip.pretty.viewport-bottom .tip-top {
+    height: 22px;
+}
+
+#tooltip.pretty .tip-bottom {
+    height: 22px;
+}
+#tooltip.pretty.viewport-bottom .tip-bottom {
+    height: 45px;
+}
+
+#tooltip .name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#tooltip .caption {
+    font-size: 1.1em;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+#tooltip .description {
+    font-size: 1.1em;
+}
+#tooltip .stats {
+    font-size: 0.7em;
+}
+#tooltip .tags {
+    font-size: 0.9em;
+    padding-top: 10px;
+}

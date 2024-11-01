@@ -1,0 +1,220 @@
+#WordTrailsWidget, #WordTrailsWormsEyeContainer {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+#WordTrailsBlazingContainer {
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+#WordTrailsBlazingContainer form {
+    font-size: 0.8em;
+}
+#WordTrailsWormsEyeContainer div {
+    padding: 0px;
+    margin: 0px;
+}
+#WordTrailsWormsEyeContainer span {
+    padding: 0px;
+    margin: 0px;
+}
+
+#WordTrailsWormsEyeContainer .clear {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+#WordTrailsWormsEyeContainer .clearright {
+    clear:right;
+    padding: 0px;
+    margin: 0px;
+}
+#WordTrailsWormsEyeContainer .clearleft {
+    clear:left;
+    padding: 0px;
+    margin: 0px;
+}
+#WordTrailsWormsEyeContainer .left {
+    position: absolute;
+    left: 3px;
+    min-height: 26px;
+}
+#WordTrailsWormsEyeContainer .right {
+    position: absolute;
+    right: 3px;
+}
+#WordTrailsWormsEyeContainer .float_icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -14px;
+    left: 0px;
+    padding: 3px;
+    text-align: left;
+    z-index: 100;
+}
+#WordTrailsWormsEyeContainer .full_bottom {
+    position: relative;
+    padding: 2px 2px 2px 33px;
+    z-index: 1;
+}
+#WordTrailsWormsEyeContainer .spacer {
+    clear:both;
+    font-size: 0.3em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.here {
+    border: none !important;
+}
+.here_wrapper {
+    position: relative;
+    left: 2%;
+    width: 96%;
+}
+
+#WordTrailsWormsEyeContainer .current {
+    font-weight: bold;
+    padding: 0px;
+}
+
+#WordTrailsWidget .rounded {
+    position: relative;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #c8c8c8;
+    cursor: default;
+    margin: 2px;
+    min-height: 26px;
+}
+#WordTrailsWidget .rounded:hover {
+    background-color: #d6e6f7;
+    border-color: #6f91ca;
+}
+
+#WordTrailsWormsEyeContainer #hidden_trails {
+    padding: 0px;
+    margin: 0px;
+}
+#WordTrailsWidget .show_hide_link {
+    text-align: center;
+    font-size: 0.75em;
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+}
+
+#WordTrailsWidget .shown {
+    display: block;
+}
+#WordTrailsWidget .hidden {
+    display: none;
+}
+
+#WordTrailsWormsEyeContainer .trail_holder {
+    position: relative;
+    width:100%;
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+#WordTrailsWormsEyeContainer .trail_holder .trail_links {
+    padding-top: 3px;
+    text-align: right;
+}
+.trail_links img {
+    border: none;
+}
+
+.node_box {
+    text-align: center;
+    font-size: 0.8em;
+}
+.child_box {
+    float:right;
+    width: 50%;
+}
+.parent_box {
+    float:left;
+    width: 50%;
+}
+.node {
+    width: 96%;
+    left: 2%;
+    cursor: pointer !important;
+}
+.node_rel {
+    width: 100%;
+    border-bottom: 1px dotted #969696;
+}
+.node_rel_comment {
+    color: #646464;
+    font-size: 0.8em;
+}
+.node_rel_img {
+    top: 3px;
+}
+a.invisible {
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+a.invisible:hover {
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+
+#WordTrailsWidget .trail_title {
+    position: relative;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: normal;
+    border: none;
+    color: #547ab9;
+    background: none;
+    padding: 0px 2px 0px 0px;
+    margin: 0px;
+    text-align: left;
+}
+#WordTrailsWidget .trail_caption {
+    position: relative;
+    font-size: 0.75em;
+    color: #969696;
+    line-height: normal;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+#WordTrailsWidget .here_title {
+    position: relative;
+    font-size: 0.85em;
+    font-weight: bold;
+    line-height: normal;
+    border: none;
+    background: none;
+    padding: 0px 2px 0px 0px;
+    margin: 0px;
+    text-align: left;
+}
+#WordTrailsWidget .here_caption {
+    position: relative;
+    font-size: 0.7em;
+    line-height: normal;
+    color: #969696;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+#WordTrailsWidget .node_title {
+    position: relative;
+    font-size: 1em;
+    line-height: normal;
+    border: none;
+    background: none;
+    padding: 2px;
+    margin: 0px;
+    text-align: left;
+}

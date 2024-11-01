@@ -1,0 +1,193 @@
+#WordTrails a img {
+    border: none;
+}
+#WordTrails .rounded {
+    background-color: white;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #c8c8c8;
+    cursor: default;
+    margin: 10px 2px 2px 2px;
+    z-index: 1;
+    text-align: left;
+}
+#WordTrails .nohover {
+    width: 405px !important;
+}
+#WordTrails .rounded:hover {
+    /*background-color: #d6e6f7;*/
+    border-color: #6f91ca;
+}
+#WordTrails .nohover:hover{
+    background-color: white !important;
+    border-color: #c8c8c8 !important;
+}
+#WordTrails .left {
+    text-align: left;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 1;
+    overflow: hidden;
+    min-height: 26px;
+}
+#WordTrails .right {
+    text-align: right;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 5;
+}
+#WordTrails #commit {
+    text-align: right;
+    width: 405px;
+    font-size: 8pt;
+    line-height: 1em;
+    padding: 0px;
+    margin: 0px;
+    font-style: italic;
+}
+#WordTrails .header {
+    position: relative;
+    width: 100%;
+    height: 47px;
+    border-bottom: 1px dotted #969696;
+    z-index: 1;
+}
+#WordTrails .float_icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -14px;
+    left: 0px;
+    padding: 3px;
+    text-align: left;
+    z-index: 100;
+}
+#WordTrails .full_bottom {
+    position: relative;
+    padding: 2px 2px 2px 35px;
+    z-index: 1;
+}
+
+#WordTrails #BEV {
+    margin-top: 1px;
+    text-align:center;
+}
+a.invisible {
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+a.invisible:hover {
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+
+#WordTrails .trail_title {
+    position: relative;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: normal;
+    color: #547ab9;
+    border: none;
+    background: none;
+    padding: 0px 2px 0px 0px;
+    margin: 0px 90px 0px 0px;
+    overflow: hidden;
+    max-height: 1.15em;
+    text-align: left;
+}
+#WordTrails .trail_title img.flag {
+    height: 10px;
+    padding-left: 5px;
+    margin-bottom: -1px;
+}
+
+#WordTrails .trail_title span.flag {
+    font-size: 0.8em;
+    padding-left: 5px;
+    color: #969696;
+}
+#WordTrails .trail_title span.flag abbr {
+    text-transform: lowercase;
+    font-weight: normal;
+}
+    
+#WordTrails .trail_caption {
+    position: relative;
+    font-size: 0.90em;
+    line-height: normal;
+    color: #5b5b5b;
+    padding: 3px 0px 0px 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+#WordTrails .footer {
+    position: relative;
+    height: 47px;
+    background: none;
+    z-index: 1;
+}
+
+#WordTrails .length {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    color: #969696;
+    font-size: 0.75em;
+    background: none;
+    z-index: 20;
+}
+#WordTrails .reading {
+    position: absolute;
+    bottom: 5px;
+    left: 40px;
+    color: #969696;
+    font-size: 0.80em;
+    background: none;
+}
+#WordTrails .walks {
+    position: absolute;
+    bottom: 5px;
+    right: 2px;
+    height: 38px;
+    width: 80px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+#WordTrails .walkcount {
+    position: absolute;
+    top: 14px;
+    right: 42px;
+    width: 30px;
+    text-align: center;
+    color: #547ab9;
+    font-weight: bold;
+    font-size: 0.85em;
+    background: none;
+}
+#WordTrails .start {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    height: 20px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    padding: 0px 0px 3px 35px;
+    font-size: 0.85em;
+}
+.Trailmeme {
+    padding-top: 10px;
+    text-align: right;
+    color: #969696;
+    font-size: 0.85em;
+}
+.Trailmeme img {
+    vertical-align: text-bottom;
+}
+
+.headline-meta, .edit_post, .post-edit-link {
+    display: none;
+}

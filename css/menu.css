@@ -1,0 +1,33 @@
+.button-secondary:disabled, .button-primary:disabled {
+    background: #ccc !important;
+    color: #999 !important;
+    border-color: #777 !important;
+}
+.rounded {
+    background-color: white;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #c8c8c8;
+    cursor: default;
+    padding: 1px;
+    z-index: 1;
+    text-align: left;
+    width: 600px;
+    height: 600px;
+}
+
+ol.small {
+    font-size: 8pt;
+}
+
+.waiting {
+    height: 20px;
+    text-align: left;
+    background-color: #ddd;
+}
+.loading {
+    height: 20px;
+    text-align: left;
+}
